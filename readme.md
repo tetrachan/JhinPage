@@ -1,2 +1,2 @@
-# TetraPage
-Cool tribute page wow
+# JhinPage
+Cool tribute page to Jhin wow
