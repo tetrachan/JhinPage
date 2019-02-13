@@ -7,7 +7,7 @@ body {
 
 footer {
   text-align: center;
-  padding: 1em 0 .3em 0;
+  padding: 0.2em;
   color: #D1D1D1;
   background-color: #67374E;
 }
@@ -37,6 +37,7 @@ img {
   grid-template-rows: (auto auto auto auto);
   text-align: center;
   font-size: 22px;
+  margin: auto;
 }
 
 .nav-item{
@@ -59,6 +60,18 @@ img {
 }
 .four {
   grid-area: tab4;
+}
+
+a.nav-item {
+  padding: .4em 1em .4em 1em;
+  text-decoration: none;
+  font-size: 115%;
+  color: #D1D1D1;
+  background-color: #67374E;
+}
+a.nav-item:hover, a.nav-item:active {
+  text-decoration: none;
+  background-color: #422432;
 }
 
 .contentpanel{
@@ -93,33 +106,12 @@ img {
   flex-wrap: no-wrap;
 }
 
-.maskpic{
-  flex-basis: 50%;
-}
-
-
-.masktext{
-  flex-basis: 50%;
-  text-align: center;
-}
-
-
 .art{
   grid-area: pan2;
   display:flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-between;
 }
-
-.arttext{
-  flex-basis: 50%;
-  text-align: center;
-}
-
-.artpic{
-  flex-basis:50%;
-}
-
 
 .game{
   grid-area: pan3;
@@ -128,27 +120,18 @@ img {
   justify-content: space-between;
 }
 
-.gametext{
-  flex-basis: 50%;
-  text-align: center;
-}
-
-.gamepic{
-  flex-basis:50%;
-}
-
 .fourth{
   grid-area: pan4;
   display:flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-between;
 }
 
-.fourthtext{
+.content-pic{
   flex-basis: 50%;
-  text-align: center;
 }
 
-.fourthpic{
-  flex-basis:50%;
+.content-text{
+  flex-basis: 50%;
+  text-align: center;
 }
