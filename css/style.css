@@ -23,10 +23,12 @@ footer {
   background-color: var(--accent);
 }
 
+/* so that images don't explode out of bounds */
 img {
   max-width:100%;
 }
 
+/* puts the image behind the text */
 .topbg{
   display: flex;
   padding: 0px;
@@ -36,6 +38,7 @@ img {
   font-size: 50px;
 }
 
+/* puts text in center of picture and over it */
 .toptext {
   position: absolute;
   top: 50%;
@@ -156,13 +159,15 @@ a.nav-item:hover, a.nav-item:active {
   line-height: 150%;
 }
 
+/*Mobile css stuff*/
 @media screen and (max-width: 930px) {
   .the-content{
     flex-direction: column;
   }
 
   .content-text{
-    line-height: 135%
+    line-height: 135%;
+    text-align:center;
   }
 
   .topbg{
