@@ -27,7 +27,7 @@ img {
   max-width:100%;
 }
 
-.top_bg{
+.topbg{
   display: flex;
   padding: 0px;
   position:relative;
@@ -165,7 +165,7 @@ a.nav-item:hover, a.nav-item:active {
     line-height: 135%
   }
 
-  .top_bg{
+  .topbg{
     font-size:20px;
   }
 
