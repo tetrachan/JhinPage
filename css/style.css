@@ -80,6 +80,11 @@ img {
                       "pan4";
 }
 
+.miniheader{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+}
+
 .mask{
   grid-area: pan1;
   display:flex;
