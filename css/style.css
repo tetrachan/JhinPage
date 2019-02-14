@@ -166,8 +166,9 @@ a.nav-item:hover, a.nav-item:active {
   }
 
   .content-text{
+    font-size: 20px;
     line-height: 135%;
-    text-align:center;
+    text-align:left;
   }
 
   .topbg{
@@ -175,7 +176,37 @@ a.nav-item:hover, a.nav-item:active {
   }
 
   .navbar{
-    font-size: 12px;
+    font-size: 16px;
+  }
+
+}
+
+/*For super small screens/mobile */
+@media screen and (max-width: 380px) {
+  .topbg{
+    font-size:12px;
+  }
+
+  .navbar{
+    padding: 0em;
+    display: grid;
+    grid-template-rows: (auto auto);
+    grid-template-columns: (auto auto);
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+  }
+
+  .navbar{
+    grid-template-areas:
+                       "tab1 tab2"
+                       "tab3 tab4";
+    font-size: 16px;
+  }
+
+  .content-text{
+    font-size: 16px;
+    text-align:left;
   }
 
 }
